@@ -19,6 +19,7 @@ justify-content: center;
 
 }
 
+
 .boxes {
     display: flex;
     gap: 100px;
@@ -41,14 +42,37 @@ justify-content: center;
         border: 1px solid black;
         transform: translateY(-140%);
         border-radius: 15px;
-        background-color: black;
-        color: white;
+        background-color: rgb(226, 221, 48);
+        color: rgba(19, 1, 71, 0.254);
+        font-weight: bold;
+        font-size: 20px;
         
         }
 
+        .tootltip.top {
+            transform: translateY(-140%);
+        }
+
+        .tooltip.bottom {
+            bottom: 0;
+            transform: translateY(130%);
+        }
+
+        .tooltip.top::after {
+            bottom: -6px;
+            left: 13px;
+            transform: rotate(45deg);
+
+        }
+        
+        .tooltip.bottom::after {
+            top: -6px;
+            left: 13px;
+            transform: rotate(45deg);
+        }
         .tooltip:after {
             position: absolute;
-            background-color: black;
+            background-color: rgb(226, 221, 48);
             content: '';
             width: 24px;
             height: 24px;
