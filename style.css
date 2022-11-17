@@ -42,8 +42,8 @@ justify-content: center;
         border: 1px solid black;
         transform: translateY(-140%);
         border-radius: 15px;
-        background-color: rgb(226, 221, 48);
-        color: rgba(19, 1, 71, 0.254);
+        background-color: rgb(246, 126, 7);
+        color: rgba(0, 0, 0, 0.254);
         font-weight: bold;
         font-size: 20px;
         
@@ -72,7 +72,7 @@ justify-content: center;
         }
         .tooltip:after {
             position: absolute;
-            background-color: rgb(226, 221, 48);
+            background-color:rgb(246, 126, 7);
             content: '';
             width: 24px;
             height: 24px;
