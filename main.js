@@ -22,3 +22,5 @@ const removeTooltip = (e) => {
 
 boxes.forEach((box) => box.addEventListener("mouseover", createTooltip));
 boxes.forEach((box) => box.addEventListener("mouseleave", removeTooltip));
+
+
